@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dismiss Stale Reviews</title>
+</head>
+
+<body style="
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+">
+
+<div style="
+    width:900px;
+    padding:40px;
+    border-radius:25px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    box-shadow:0 0 40px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.1);
+">
+
+    <div style="
+        text-align:center;
+        margin-bottom:40px;
+    ">
+        <div style="
+            display:inline-block;
+            padding:10px 25px;
+            border-radius:30px;
+            background:#238636;
+            color:white;
+            font-weight:bold;
+            margin-bottom:20px;
+        ">
+            GitHub Branch Protection
+        </div>
+
+        <h1 style="
+            color:white;
+            margin:0;
+            font-size:48px;
+        ">
+            Dismiss Stale Reviews
+        </h1>
+
+        <p style="
+            color:#cbd5e1;
+            font-size:18px;
+            margin-top:15px;
+        ">
+            Protect your repository from unreviewed code changes
+        </p>
+    </div>
+
+    <div style="
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        text-align:center;
+    ">
+
+        <div style="
+            width:180px;
+            background:#161b22;
+            padding:25px;
+            border-radius:18px;
+            box-shadow:0 0 20px rgba(35,134,54,.4);
+        ">
+            <div style="font-size:60px;">✅</div>
+            <h3 style="color:white;">Approved</h3>
+            <p style="color:#9ca3af;">
+                Reviewer approves PR
+            </p>
+        </div>
+
+        <div style="
+            font-size:60px;
+            color:#60a5fa;
+        ">
+            ➜
+        </div>
+
+        <div style="
+            width:180px;
+            background:#161b22;
+            padding:25px;
+            border-radius:18px;
+            box-shadow:0 0 20px rgba(59,130,246,.4);
+        ">
+            <div style="font-size:60px;">🚀</div>
+            <h3 style="color:white;">New Commit</h3>
+            <p style="color:#9ca3af;">
+                Developer pushes changes
+            </p>
+        </div>
+
+        <div style="
+            font-size:60px;
+            color:#60a5fa;
+        ">
+            ➜
+        </div>
+
+        <div style="
+            width:180px;
+            background:#161b22;
+            padding:25px;
+            border-radius:18px;
+            box-shadow:0 0 20px rgba(239,68,68,.4);
+        ">
+            <div style="font-size:60px;">❌</div>
+            <h3 style="color:white;">Approval Removed</h3>
+            <p style="color:#9ca3af;">
+                Old review becomes stale
+            </p>
+        </div>
+
+        <div style="
+            font-size:60px;
+            color:#60a5fa;
+        ">
+            ➜
+        </div>
+
+        <div style="
+            width:180px;
+            background:#161b22;
+            padding:25px;
+            border-radius:18px;
+            box-shadow:0 0 20px rgba(168,85,247,.4);
+        ">
+            <div style="font-size:60px;">🔍</div>
+            <h3 style="color:white;">Review Again</h3>
+            <p style="color:#9ca3af;">
+                Fresh approval required
+            </p>
+        </div>
+
+    </div>
+
+    <div style="
+        margin-top:40px;
+        text-align:center;
+        padding:20px;
+        border-radius:15px;
+        background:rgba(255,255,255,0.05);
+    ">
+        <p style="
+            color:#f8fafc;
+            font-size:20px;
+            margin:0;
+            font-weight:600;
+        ">
+            "A reviewer approves a specific version of the code,
+            not the Pull Request forever."
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
